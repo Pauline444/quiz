@@ -11,16 +11,20 @@ body {
     /* background-color: rgb(174, 181, 255); */
     background-image: linear-gradient(to bottom right, $bg-light, $bg-dark);
     color: $bg-b;
-    text-align: center;
-    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    font-family: $font-main;
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
-    font-size: 5rem;
+    text-align: center;
+    font-size: 3rem;
+    margin: 10px;
 }
 
 p {
-    font-size: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 .content {
@@ -29,18 +33,32 @@ p {
     margin: 50px;
     padding: 40px;
     height: 100vh;
+    max-width: 600px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     header {
-        margin: 40px;
+        margin-bottom: 100px;
     }
 
     main {
+        input {
+            padding: 10px;
+            border-radius: 10px;
+            width: 400px;
+            margin-bottom: 40px;
+            border: 1px solid $bg-b;
+        }
+
+        label {
+            font-family: $font-main;
+
+        }
 
         .btn {
             color: white;
-            font-size: 3rem;
+            font-size: 2rem;
             width: 400px;
             height: 80px;
             border: none;
@@ -48,6 +66,7 @@ p {
             cursor: pointer;
             border-radius: 20px;
             background-color: $bg-btn;
+            font-family: $font-main;
         }
 
         .btn:hover {
