@@ -11,20 +11,21 @@
 
 <body>
     <div class="content">
-        <header class="header">
+        <header>
             <h1>QUIZ</h1>
             <p>Testa dina kunskaper inom dagens mest spännande teknik. Ange ditt namn, klicka på Play och se hur många
                 rätt du får.</p>
         </header>
         <main>
-            <fieldset>
-                <legend>Fyll i ditt namn:</legend>
+            <div class="user-input">
+                <label for="name">Fyll i ditt namn:</label><br>
                 <input type="text" id="name" name="name">
-            </fieldset>
-            <div id="quiz-container">
-
-                <button>starta quiz</button>
             </div>
+
+            <div id="quiz-container">
+                <!--quiz frågorna kommer synas här-->
+            </div>
+            <button class="btn start">starta quiz</button>
         </main>
     </div>
 </body>
