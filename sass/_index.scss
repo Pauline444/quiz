@@ -31,6 +31,20 @@ h1 {
     }
 }
 
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 35px;
+
+    @include mobile {
+        font-size: 1.6rem;
+    }
+
+    @include tablet {
+        font-size: 1.8rem;
+    }
+}
+
 p {
     text-align: center;
     font-size: 1.5rem;
@@ -71,7 +85,7 @@ p {
     }
 
     main {
-        input {
+        #name {
             padding: 10px;
             border-radius: 10px;
             width: 400px;
@@ -92,12 +106,16 @@ p {
             }
         }
 
+        #q {
+            margin-bottom: 10px;
+        }
+
         label {
             font-family: $font-main;
 
         }
 
-        .btn {
+        .btn.play {
             color: white;
             font-size: 2.3rem;
             width: 400px;
@@ -123,7 +141,39 @@ p {
             }
         }
 
-        .btn:hover {
+        .btn.play:hover {
+            background-color: $bg-btn-hover;
+            box-shadow: 2px 2px 30px $bg-btn;
+        }
+
+        .btn.next {
+            color: white;
+            font-size: 1.7rem;
+            width: 400px;
+            height: 40px;
+            border: none;
+            margin-top: 50px;
+            box-shadow: 5px 5px 20px $bg-btn;
+            cursor: pointer;
+            border-radius: 10px;
+            background-color: $bg-btn;
+            font-family: $font-main;
+
+            @include mobile {
+                font-size: 1.3rem;
+                width: 280px;
+                height: 30px;
+                border-radius: 10px;
+            }
+
+            @include tablet {
+                font-size: 1.5rem;
+                width: 350px;
+                height: 35px;
+            }
+        }
+
+        .btn.next:hover {
             background-color: $bg-btn-hover;
             box-shadow: 2px 2px 30px $bg-btn;
         }

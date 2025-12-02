@@ -14,6 +14,22 @@ playBtn.addEventListener('click', function () {
     console.log(userName);
     quizContainer.innerHTML = `<header>
             <h1>${userName}'s QUIZ</h1>
-            <div class="progress-bar" style="width: ${jsonElement}%"></div>
-        </header>`;
+            <div class="progress-bar" style="width: %"></div>
+        </header>
+        <main>
+        <div class="quiz-question">
+                <h2>Frågan</h2>
+                <div class="quiz-options">
+                    <input type="radio" id="q" name="question">
+                    <label for="q">Här är ett svar</label><br>
+                    <input type="radio" id="q" name="question">
+                    <label for="q">Här är ett svar</label><br>
+                    <input type="radio" id="q" name="question">
+                    <label for="q">Här är ett svar</label><br>
+                    <input type="radio" id="q" name="question">
+                    <label for="q">Här är ett svar</label>
+                </div>
+                <button class="btn next">Nästa</button>
+            </div>
+        </main>`;
 })
