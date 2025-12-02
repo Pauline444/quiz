@@ -1,0 +1,167 @@
+[
+    {
+        "id": 1,
+        "question": "Vad står AI för?",
+        "options": [
+            "Artificial Intelligence",
+            "Automated Integration",
+            "Advanced Interface",
+            "Active Input"
+        ],
+        "correctAnswer": "Artificial Intelligence"
+    },
+    {
+        "id": 2,
+        "question": "Vilket programmeringsspråk används ofta för maskininlärning?",
+        "options": [
+            "Python",
+            "PHP",
+            "Swift",
+            "Ruby"
+        ],
+        "correctAnswer": "Python"
+    },
+    {
+        "id": 3,
+        "question": "Vad är ett neuralt nätverk inspirerat av?",
+        "options": [
+            "Solsystemet",
+            "Mänskliga hjärnan",
+            "Internetkablar",
+            "DNA"
+        ],
+        "correctAnswer": "Mänskliga hjärnan"
+    },
+    {
+        "id": 4,
+        "question": "Vilket företag utvecklade ChatGPT?",
+        "options": [
+            "Google",
+            "Meta",
+            "OpenAI",
+            "Amazon"
+        ],
+        "correctAnswer": "OpenAI"
+    },
+    {
+        "id": 5,
+        "question": "Vad är en GPU särskilt bra på?",
+        "options": [
+            "Kryptering",
+            "3D-visualisering och parallella beräkningar",
+            "Databashantering",
+            "Webbdesign"
+        ],
+        "correctAnswer": "3D-visualisering och parallella beräkningar"
+    },
+    {
+        "id": 6,
+        "question": "Vad betyder 'Machine Learning'?",
+        "options": [
+            "Datorer som skriver musik",
+            "Datorer som lär av data",
+            "Datorer som ritar bilder",
+            "Datorer som lagrar information"
+        ],
+        "correctAnswer": "Datorer som lär av data"
+    },
+    {
+        "id": 7,
+        "question": "Vilket format används ofta för att träna bildmodeller?",
+        "options": [
+            "PNG",
+            "JPEG",
+            "Dataset med många märkta bilder",
+            "GIF"
+        ],
+        "correctAnswer": "Dataset med många märkta bilder"
+    },
+    {
+        "id": 8,
+        "question": "Vad är en algoritm?",
+        "options": [
+            "En samling HTML-element",
+            "En sekvens instruktioner för att lösa ett problem",
+            "En typ av virus",
+            "Ett AI-verktyg"
+        ],
+        "correctAnswer": "En sekvens instruktioner för att lösa ett problem"
+    },
+    {
+        "id": 9,
+        "question": "Vilken av följande AI-modeller är mest känd för bildgenerering?",
+        "options": [
+            "DALL·E",
+            "MySQL",
+            "React",
+            "TensorFlow DB"
+        ],
+        "correctAnswer": "DALL·E"
+    },
+    {
+        "id": 10,
+        "question": "Vad lagrar ett neuralt nätverks 'vikter'?",
+        "options": [
+            "CSS-varianter",
+            "Nodenheter",
+            "Modellens inlärda kunskap",
+            "Webbsidans typsnitt"
+        ],
+        "correctAnswer": "Modellens inlärda kunskap"
+    },
+    {
+        "id": 11,
+        "question": "Vad betyder 'open source'?",
+        "options": [
+            "Kod som är hemlig",
+            "Kod som får användas och ändras fritt",
+            "Kod som bara företag får se",
+            "Kod som är skriven i Java"
+        ],
+        "correctAnswer": "Kod som får användas och ändras fritt"
+    },
+    {
+        "id": 12,
+        "question": "Vilket operativsystem är baserat på Linux?",
+        "options": [
+            "macOS",
+            "Windows",
+            "Android",
+            "Chrome Beta"
+        ],
+        "correctAnswer": "Android"
+    },
+    {
+        "id": 13,
+        "question": "Vad är en API?",
+        "options": [
+            "Ett sätt för program att kommunicera",
+            "En webbserver",
+            "En processor",
+            "Ett filformat"
+        ],
+        "correctAnswer": "Ett sätt för program att kommunicera"
+    },
+    {
+        "id": 14,
+        "question": "Vilken enhet mäter hastighet på internetuppkoppling?",
+        "options": [
+            "Watt",
+            "Mbps",
+            "Celsius",
+            "DPI"
+        ],
+        "correctAnswer": "Mbps"
+    },
+    {
+        "id": 15,
+        "question": "Vad används Git främst till?",
+        "options": [
+            "Bildredigering",
+            "Versionshantering av kod",
+            "Databasoptimering",
+            "Videostreaming"
+        ],
+        "correctAnswer": "Versionshantering av kod"
+    }
+]

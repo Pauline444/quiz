@@ -44,12 +44,13 @@ p {
     }
 }
 
-.content {
+.quiz-container {
     background-color: $bg-w;
     border-radius: 40px;
     margin: 50px;
     padding: 40px;
     height: 100vh;
+    min-height: 700px;
     max-width: 600px;
     display: flex;
     flex-direction: column;
@@ -62,7 +63,7 @@ p {
 
     @include tablet {
         margin: 40px;
-        padding: 30px;
+        padding: 40px;
     }
 
     header {
@@ -98,7 +99,7 @@ p {
 
         .btn {
             color: white;
-            font-size: 2rem;
+            font-size: 2.3rem;
             width: 400px;
             height: 80px;
             border: none;
@@ -109,14 +110,14 @@ p {
             font-family: $font-main;
 
             @include mobile {
-                font-size: 1rem;
+                font-size: 1.7rem;
                 width: 280px;
                 height: 50px;
                 border-radius: 10px;
             }
 
             @include tablet {
-                font-size: 1.6rem;
+                font-size: 2rem;
                 width: 350px;
                 height: 50px;
             }
