@@ -11,17 +11,38 @@ body {
   font-family: "Courier New", Courier, monospace;
   display: flex;
   justify-content: center;
+  width: 100vw;
 }
 
 h1 {
   text-align: center;
-  font-size: 3rem;
-  margin: 10px;
+  font-size: 3.2rem;
+  margin: 15px;
+}
+@media (max-width: 499px) {
+  h1 {
+    font-size: 2.8rem;
+  }
+}
+@media (min-width: 500px) and (max-width: 823px) {
+  h1 {
+    font-size: 3rem;
+  }
 }
 
 p {
   text-align: center;
   font-size: 1.5rem;
+}
+@media (max-width: 499px) {
+  p {
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 500px) and (max-width: 823px) {
+  p {
+    font-size: 1.4rem;
+  }
 }
 
 .content {
@@ -35,6 +56,18 @@ p {
   flex-direction: column;
   align-items: center;
 }
+@media (max-width: 499px) {
+  .content {
+    margin: 20px;
+    padding: 20px;
+  }
+}
+@media (min-width: 500px) and (max-width: 823px) {
+  .content {
+    margin: 40px;
+    padding: 30px;
+  }
+}
 .content header {
   margin-bottom: 100px;
 }
@@ -42,8 +75,23 @@ p {
   padding: 10px;
   border-radius: 10px;
   width: 400px;
+  height: 30px;
   margin-bottom: 40px;
   border: 1px solid black;
+}
+@media (max-width: 499px) {
+  .content main input {
+    font-size: 1rem;
+    width: 280px;
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 500px) and (max-width: 823px) {
+  .content main input {
+    font-size: 1.6rem;
+    width: 350px;
+    margin-bottom: 20px;
+  }
 }
 .content main label {
   font-family: "Courier New", Courier, monospace;
@@ -59,6 +107,21 @@ p {
   border-radius: 20px;
   background-color: rgb(116, 69, 255);
   font-family: "Courier New", Courier, monospace;
+}
+@media (max-width: 499px) {
+  .content main .btn {
+    font-size: 1rem;
+    width: 280px;
+    height: 50px;
+    border-radius: 10px;
+  }
+}
+@media (min-width: 500px) and (max-width: 823px) {
+  .content main .btn {
+    font-size: 1.6rem;
+    width: 350px;
+    height: 50px;
+  }
 }
 .content main .btn:hover {
   background-color: rgb(83, 30, 244);

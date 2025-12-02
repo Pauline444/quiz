@@ -14,17 +14,34 @@ body {
     font-family: $font-main;
     display: flex;
     justify-content: center;
+    width: 100vw;
 }
 
 h1 {
     text-align: center;
-    font-size: 3rem;
-    margin: 10px;
+    font-size: 3.2rem;
+    margin: 15px;
+
+    @include mobile {
+        font-size: 2.8rem;
+    }
+
+    @include tablet {
+        font-size: 3rem;
+    }
 }
 
 p {
     text-align: center;
     font-size: 1.5rem;
+
+    @include mobile {
+        font-size: 1.3rem;
+    }
+
+    @include tablet {
+        font-size: 1.4rem;
+    }
 }
 
 .content {
@@ -38,6 +55,16 @@ p {
     flex-direction: column;
     align-items: center;
 
+    @include mobile {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    @include tablet {
+        margin: 40px;
+        padding: 30px;
+    }
+
     header {
         margin-bottom: 100px;
     }
@@ -47,8 +74,21 @@ p {
             padding: 10px;
             border-radius: 10px;
             width: 400px;
+            height: 30px;
             margin-bottom: 40px;
             border: 1px solid $bg-b;
+
+            @include mobile {
+                font-size: 1rem;
+                width: 280px;
+                margin-bottom: 10px;
+            }
+
+            @include tablet {
+                font-size: 1.6rem;
+                width: 350px;
+                margin-bottom: 20px;
+            }
         }
 
         label {
@@ -67,6 +107,19 @@ p {
             border-radius: 20px;
             background-color: $bg-btn;
             font-family: $font-main;
+
+            @include mobile {
+                font-size: 1rem;
+                width: 280px;
+                height: 50px;
+                border-radius: 10px;
+            }
+
+            @include tablet {
+                font-size: 1.6rem;
+                width: 350px;
+                height: 50px;
+            }
         }
 
         .btn:hover {
